@@ -9,7 +9,7 @@ const PostsPage = async () => {
         <div>
             <h1>Posts</h1>
 
-            <div className='grid grid-cols-3 gap-4 '>
+            <div className='grid grid-cols-3 gap-4  '>
                 {posts.map((post) => (
                <Post key={post.id} post={post} />
             ))}
